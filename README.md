@@ -1,4 +1,4 @@
- Semantic HTML Single-Page CV : https://github.com/ahalya-affable/My-Semantic-cv
+ Semantic HTML Single-Page CV : https://roadmap.sh/projects/single-page-cv
 
 This is a beginner-level project focused on building a structured, single-page Curriculum Vitae (CV) using only Semantic HTML. The goal was to practice laying out content—such as education, skills, and career history—in a clean, meaningful way without the use of CSS for styling.
 
