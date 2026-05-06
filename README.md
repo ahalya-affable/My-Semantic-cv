@@ -1,10 +1,51 @@
-#  Semantic HTML Single-Page CV
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Semantic-cv</title>
+    <link rel="stylesheet" href="semantic.min.css" />
+  </head>
+  <body>
+    <header>
+      <h1>B.Ahalya</h1>
+      <p> Senior Software Engineer</p>
+      <adress>
+        Door no:xyz;<br>
+        1st street,abc colony;<br>
+        1234567890;<br>
+        chennai,tamilnadu,india <br>
+        <a href="mailto:noreply@example.com">noreply@example.com</a>
+      </address>
+  </header>
+  <main>
+    <section>
+      <h2>Skills</h2>
+      <p>Advance mendix , HTML,CSS, JavaScript,Integration,React JS,Micrservice,CI/CD Deployement</p>
+    </section>
+    <section>
+     <h2>Education </h2>
+     <article>
+     <h3>Schoolname, Location, Degree</h3>
+     <p><em>Year2015 t0 Year 2019</em></p>
+    <ul>
+      <li>List of achievement on SchoolName</li>
+      <li>List of achievement2</li>
+      <li>List of achievement3</li>
 
-This is a beginner-level project focused on building a structured, single-page Curriculum Vitae (CV) using only Semantic HTML. The goal was to practice laying out content—such as education, skills, and career history—in a clean, meaningful way without the use of CSS for styling.
-
-Key Learning Objectives:
-
-Implementing semantic tags like <header>, <main>, and <section> to define page hierarchy.
-Using the <address> tag for contact information.
-Organizing lists of achievements and skills using <ul> and <li> for better readability.
-Applying <em> for emphasized text such as dates.
+    </ul>
+    <p><strong>Skills:</strong>List of skills gained from this company</p>
+    
+      </article>
+      <article>
+    <h3>Companyname, Location-jobtitle</h3>
+    <ul>
+      <li>List of achievement 1s</li>
+      <li>List of achievement2</li>
+      <li>List of achievement3</li>
+    </article>
+    
+    </section>
+  </main>
+  </body>
+</html>
